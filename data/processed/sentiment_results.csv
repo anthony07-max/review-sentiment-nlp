@@ -1,0 +1,3 @@
+model,accuracy_3class,macro_f1_3class
+VADER lexicon (no training),0.569626589248173,0.4805503337498465
+TF-IDF + logistic regression,0.7913705075583142,0.73428714415711

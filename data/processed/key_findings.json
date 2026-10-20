@@ -1,0 +1,308 @@
+{
+  "n_reviews": 49942,
+  "test_size": 9989,
+  "sentiment": [
+    {
+      "model": "VADER lexicon (no training)",
+      "accuracy_3class": 0.57,
+      "macro_f1_3class": 0.481
+    },
+    {
+      "model": "TF-IDF + logistic regression",
+      "accuracy_3class": 0.791,
+      "macro_f1_3class": 0.734
+    }
+  ],
+  "stars": {
+    "exact_star_accuracy": 0.584,
+    "within_one_star": 0.938,
+    "mae_expected_stars": 0.555
+  },
+  "median_words_by_star": {
+    "1": 110.0,
+    "2": 117.0,
+    "3": 110.0,
+    "4": 95.0,
+    "5": 75.0
+  },
+  "top_positive_terms": [
+    "great",
+    "delicious",
+    "amazing",
+    "love",
+    "awesome",
+    "excellent",
+    "best",
+    "perfect",
+    "fantastic",
+    "good",
+    "definitely",
+    "loved",
+    "wonderful",
+    "always",
+    "yummy"
+  ],
+  "top_negative_terms": [
+    "not",
+    "worst",
+    "horrible",
+    "bland",
+    "not worth",
+    "rude",
+    "mediocre",
+    "terrible",
+    "no",
+    "disappointing",
+    "two stars",
+    "unfortunately",
+    "awful",
+    "at best",
+    "ok"
+  ],
+  "topics": {
+    "negative": [
+      {
+        "topic": 0,
+        "top_terms": "place, like, just, don, really, people, time, know, bar, ve",
+        "share": 0.21200440528634362,
+        "n_reviews": 3075,
+        "mean_stars": 1.5530106257378984,
+        "summary": [
+          "I really don't like this place.",
+          "I WANT to like this place, but just can't.",
+          "I did not like this place."
+        ]
+      },
+      {
+        "topic": 6,
+        "top_terms": "chicken, ordered, salad, sauce, rice, meat, tasted, cheese, like, flavor",
+        "share": 0.1697537044453344,
+        "n_reviews": 3052,
+        "mean_stars": 1.6484812739604837,
+        "summary": [
+          "His came and was a piece of chicken on a dish, didn't taste like anything at all, just grilled chicken.",
+          "Salad part was good, chicken part was not.",
+          "My biggest complaint about this place...the food is not cooked fresh :-( I ordered a chicken greek salad, which tasted pretty good, but the meat was processed."
+        ]
+      },
+      {
+        "topic": 1,
+        "top_terms": "customer, service, customer service, store, said, told, called, manager, rude, business",
+        "share": 0.15038045654785742,
+        "n_reviews": 2466,
+        "mean_stars": 1.2393475366178428,
+        "summary": [
+          "customer service, not service at all.",
+          "When I went there they did not have it and so they asked me to go to customer service and order it from a different store.",
+          "The customer service in this store is terrible."
+        ]
+      },
+      {
+        "topic": 5,
+        "top_terms": "food, service, good, place, great, restaurant, bad, terrible, food good, slow",
+        "share": 0.14702643171806168,
+        "n_reviews": 2690,
+        "mean_stars": 1.564862104187947,
+        "summary": [
+          "Over all food was not good and service not at all what it could be.",
+          "Pathetic food, will never go there again...",
+          "The food was eatable ok food when you can get great food for the same price and the waitress acts like they are glad you are there."
+        ]
+      },
+      {
+        "topic": 4,
+        "top_terms": "minutes, order, table, came, took, wait, waited, server, time, waitress",
+        "share": 0.10903083700440529,
+        "n_reviews": 1941,
+        "mean_stars": 1.4228650137741048,
+        "summary": [
+          "We then waited another 10 minutes for our server to come back around to order more drinks and food.",
+          "The food took a long time and after the food came, it was another 15 before they told me to order something else because the dish I ordered didn't look good.",
+          "Get shown to the table (good thing I got two drinks at the bar), it took 10 to 15 minutes for the server to show up."
+        ]
+      },
+      {
+        "topic": 2,
+        "top_terms": "room, hotel, stay, rooms, desk, vegas, stayed, night, bed, pool",
+        "share": 0.06788145774929916,
+        "n_reviews": 1259,
+        "mean_stars": 1.4756637168141593,
+        "summary": [
+          "Ours was a robo cop room....",
+          "We will NEVER stay in this hotel again.",
+          "Good hotel if you just want a place to stay when you are in Vegas."
+        ]
+      },
+      {
+        "topic": 9,
+        "top_terms": "burger, fries, burgers, cheese, bun, ordered, bacon, order, patty, medium",
+        "share": 0.037995594713656385,
+        "n_reviews": 739,
+        "mean_stars": 1.6640316205533596,
+        "summary": [
+          "The burger was nothing to brag about.",
+          "I got my burger with fries.",
+          "The first time I ordered a burger and chili cheese fries."
+        ]
+      },
+      {
+        "topic": 3,
+        "top_terms": "pizza, crust, cheese, delivery, slice, sauce, pepperoni, toppings, pizzas, order",
+        "share": 0.03669403283940729,
+        "n_reviews": 729,
+        "mean_stars": 1.538881309686221,
+        "summary": [
+          "I have only had the pizza here.",
+          "Gosh, this pizza place is so good.",
+          "The pizza is just not good overall., maybe I am a bit more demanding when it comes to pizza than others but this pizza really did not qualify as good pizza in my books."
+        ]
+      },
+      {
+        "topic": 8,
+        "top_terms": "sushi, rolls, roll, fish, tuna, buffet, rice, quality, fresh, crab",
+        "share": 0.03539247096515819,
+        "n_reviews": 656,
+        "mean_stars": 1.5968882602545968,
+        "summary": [
+          "This may sound bitter but im very sensitive about my sushi.",
+          "An AYCE sushi restaurant for those who don't like sushi.",
+          "The sushi was blah and there was waaaaay more rice in the sushi rolls than there was actually fish."
+        ]
+      },
+      {
+        "topic": 7,
+        "top_terms": "car, wash, car wash, oil, oil change, change, told, rental, tire, cars",
+        "share": 0.03384060873047657,
+        "n_reviews": 625,
+        "mean_stars": 1.2781065088757397,
+        "summary": [
+          "If I had another car, I'd never take it back there again!",
+          "Do not wash your car at this place.",
+          "Don't bring your car here for car wash."
+        ]
+      }
+    ],
+    "positive": [
+      {
+        "topic": 1,
+        "top_terms": "like, time, just, ve, don, people, know, did, make, going",
+        "share": 0.29557858895398326,
+        "n_reviews": 5434,
+        "mean_stars": 4.54853464340166,
+        "summary": [
+          "Pretty much every time I've come here, I've had a good time.",
+          "I do really like this place.",
+          "He gives great advice on color and style even taking the time to teach you how to do your hair so that you too can look just like you walked out of the salon every day."
+        ]
+      },
+      {
+        "topic": 0,
+        "top_terms": "chicken, delicious, ordered, salad, menu, sauce, cheese, restaurant, meal, fresh",
+        "share": 0.16478894396875468,
+        "n_reviews": 2957,
+        "mean_stars": 4.42631419021574,
+        "summary": [
+          "The vegetables taste fresh and delicious, the chicken has just the right amount of sauce, and the rice portions are perfect as always.",
+          "The steak came with a really good vadalia onion sauce.",
+          "The food was great, fresh, hot and delicious."
+        ]
+      },
+      {
+        "topic": 5,
+        "top_terms": "food, service, great food, great service, excellent, food great, atmosphere, service great, amazing, restaurant",
+        "share": 0.11411546742777026,
+        "n_reviews": 2184,
+        "mean_stars": 4.559894690653795,
+        "summary": [
+          "The service and food is great!",
+          "Great atmosphere,prices are good,great service and food quality awesome !",
+          "This food is on par with both Pei Wei and P.F."
+        ]
+      },
+      {
+        "topic": 4,
+        "top_terms": "good, really, really good, good food, pretty, food good, pretty good, food, good service, place",
+        "share": 0.08952981823644285,
+        "n_reviews": 1736,
+        "mean_stars": 4.296420581655481,
+        "summary": [
+          "The food was very good and the service was really good too.",
+          "The service is great, the beer is pretty good, and the food is pretty good too.",
+          "Very nice place, good food, good atmosphere, great staff."
+        ]
+      },
+      {
+        "topic": 2,
+        "top_terms": "love, place, love place, love love, great place, favorite, best, place great, amazing, awesome",
+        "share": 0.08041660407591007,
+        "n_reviews": 1515,
+        "mean_stars": 4.628891656288917,
+        "summary": [
+          "We love this place, the food is great.",
+          "We are not vegans or even vegetarians, but we just love this place!",
+          "I love this place in and out in no time."
+        ]
+      },
+      {
+        "topic": 9,
+        "top_terms": "friendly, staff, staff friendly, friendly staff, clean, recommend, helpful, nice, highly, super",
+        "share": 0.07345651194231635,
+        "n_reviews": 1412,
+        "mean_stars": 4.587593728698023,
+        "summary": [
+          "Always friendly staff and consistently great food.",
+          "This place is very clean and has a friendly staff.",
+          "The service was great, and all the staff was friendly and helpful."
+        ]
+      },
+      {
+        "topic": 6,
+        "top_terms": "room, hotel, vegas, strip, stay, nice, pool, rooms, stayed, night",
+        "share": 0.06329177307095288,
+        "n_reviews": 1157,
+        "mean_stars": 4.450158227848101,
+        "summary": [
+          "Would have been nice to see more (any) of vegas but we had a great time...until we got the room bill.",
+          "I stayed at this hotel last night, and we had a great stay.",
+          "I had a great time there and would definitely stay at this hotel again."
+        ]
+      },
+      {
+        "topic": 8,
+        "top_terms": "burger, fries, burgers, best, cheese, beer, bar, sweet potato, potato, best burger",
+        "share": 0.0443643282760002,
+        "n_reviews": 834,
+        "mean_stars": 4.444695259593679,
+        "summary": [
+          "These are curly fries that you can get with your burger.",
+          "A great place for a burger!",
+          "The burger was delicious and the fries were really good as well!"
+        ]
+      },
+      {
+        "topic": 3,
+        "top_terms": "pizza, crust, best pizza, great pizza, wings, best, cheese, pizzas, slice, pizza good",
+        "share": 0.03800510740573832,
+        "n_reviews": 748,
+        "mean_stars": 4.44532279314888,
+        "summary": [
+          "The pizza is as good as any pizza I have ever had.",
+          "This is a great pizza place.",
+          "Some of the best pizza i've had in Vegas, and pizza is all I eat when I'm out there!"
+        ]
+      },
+      {
+        "topic": 7,
+        "top_terms": "sushi, rolls, roll, best, happy hour, fish, hour, happy, fresh, ayce",
+        "share": 0.03645285664213109,
+        "n_reviews": 679,
+        "mean_stars": 4.489010989010989,
+        "summary": [
+          "This place is great whether you like sushi or not.",
+          "Although I mostly go for the sushi",
+          "This is the best sushi place I've ever been to!"
+        ]
+      }
+    ]
+  }
+}
